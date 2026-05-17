@@ -1,51 +1,51 @@
-# C-nergetic 
-<li>https://github.com/macwandarell/C-nergetic</li>
-<h2>Team:</h2>
-<li> Karan Mansuria <strong>(BT2024104)</strong></li>
-<li> Yashvi Mehta <strong>(BT2024136)</strong></li>
-<li> Vedansh Patel <strong>(BT20240162)</strong></li>
-<li> Jos Samuel Biju <strong>(BT2024175)</strong></li>
-<li> Vedant Savani <strong>(BT2024191)</strong></li>
-<li> Macwan Darell Suhrudkumar <strong>(IMT2024054)</strong></li>
-<hr>
+# C-nergetic
 
-![image](https://github.com/user-attachments/assets/39fea929-8f0a-4fe1-81bc-f2e14c08b8a3)
+## Project Description
 
-<li>The entire project of hotel management system was divided into 2 teams internally.
+C-nergetic is a robust Hotel Management System implemented entirely in the C Programming Language. The software offers a cross-compatible, dynamic, and user-friendly terminal-based interface. It streamlines hotel operations by separating functionalities into distinct User and Administrator environments.
 
-Team 1 consisted of  Vedansh, Karan, Vedant who worked on the Admin login, view page and billing page.
+## Core Features
 
-Team 2 consisted of Darell, Jos and Yashvi who worked on the customer registration, hotel selection, user main window.
+### User Dashboard
+*   **User Registration:** Seamless onboarding process for new customers.
+*   **Hotel Selection:** Browse and choose from a curated list of available hotels.
+*   **Booking Management:** Reserve rooms and manage stay durations.
+*   **Commodity Add-ons:** Request extra amenities and services during the stay.
 
-Darell and Jos - Registration page, user main window and hotel selection page backend development and           	               csv file handling
+### Administrator Dashboard
+*   **Secure Access:** Protected login system for administrative control.
+*   **Hotel Management:** Add new hotel properties or remove existing ones from the database.
+*   **Data Viewing:** Access comprehensive details regarding registered hotels and user bookings.
+*   **Billing System:** Generate accurate invoices and process customer billing.
 
-Yashvi  -  Front end/ UI development of the registration page and hotel data collection
+## Installation and Usage
 
-Vedansh – Login page, admin page frontend and backend development
- 
-Vedant and Karan – Billing and view_hotel page - front end and backend development </li>
+To run the application locally, ensure you have a standard C compiler (e.g., GCC) and the `make` utility installed on your operating system.
 
+1.  Navigate to the project directory in your terminal or command prompt.
+2.  Compile the source code using the Makefile.
+    ```bash
+    make
+    ```
+3.  Execute the compiled binary to start the application.
+    ```bash
+    ./main
+    ```
+4.  To clean up compiled objects and executables, run the clean command.
+    ```bash
+    make clean
+    ```
 
-<h1>Commands to run the code :</h1>
+## Development Team
 
-Unzip the project folder and open the Command Prompt or PowerShell in correct Directory 
+This system was collaboratively developed by two specialized teams.
 
-Run the MakeFile using the command : make 
-For running the code type: ./main
-To clear the executables type : make clean
+**Team 1: Admin and Billing Systems**
+*   **Vedansh Patel (BT20240162):** Admin login and dashboard development (frontend and backend).
+*   **Karan Mansuria (BT2024104):** Billing system and hotel viewing modules.
+*   **Vedant Savani (BT2024191):** Billing system and hotel viewing modules.
 
-
-<strong><h1>Project Description :</strong></h1>
-
-A Hotel Management System implemented by using C Programming Language. It is cross-compatible , dynamic and user-friendly. It contains the user as well as admin window.
-
-User Window : Consists of the features like booking hotel, adding extra commodities, register new users, etc. 
-Admin Window : Consists of features like adding new hotels, deleting existing hotels, viewing hotels, etc.
-
-The project is packed with mind-blowing features. 
-
-                        Do Come and Explore !!! 
-
-
-
-
+**Team 2: Customer Registration and User Interface**
+*   **Macwan Darell Suhrudkumar (IMT2024054):** Backend development for registration, user dashboard, hotel selection, and CSV file handling.
+*   **Jos Samuel Biju (BT2024175):** Backend development for registration, user dashboard, hotel selection, and CSV file handling.
+*   **Yashvi Mehta (BT2024136):** UI development for registration and data collection processes.
